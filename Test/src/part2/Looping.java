@@ -23,13 +23,14 @@ public class Looping {
 		 	System.out.println(sum);
 		 	
 		 	main1();
+		 	main2();
 	 	}
 	 
 	 public static void main1 () {
-	      int sum = 0;          // Store the accumulated sum, init to 0
-	      double average = 0;       // average in double
-	      int lowerbound = 1;   // The lowerbound to sum
-	      int upperbound = 100; // The upperbound to sum
+	      int sum = 0;         
+	      double average = 0;    
+	      int lowerbound = 1;  
+	      int upperbound = 100; 
 	      
 	      int number = lowerbound;
 
@@ -37,6 +38,22 @@ public class Looping {
 	    	   sum += number;
 	    	   ++number;
 	    	}	     
+	   		System.out.println("here" + average);
+		 	System.out.println(sum);
+	 	}
+	 
+	 public static void main2 () {
+	      int sum = 0;         
+	      double average = 0;      
+	      int lowerbound = 1; 
+	      int upperbound = 100; 
+	      
+	      int number = lowerbound;
+
+	      while (number <= upperbound) {
+	    	   sum += number;
+	    	   ++number;
+	    	}	
 	   		System.out.println("here" + average);
 		 	System.out.println(sum);
 	 	}
