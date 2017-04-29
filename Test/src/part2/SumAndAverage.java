@@ -20,47 +20,39 @@ The average is 50.5
 * i.e. 1*1 + 2*2 + 3*3 + ... + 100*100.
 
 
+	
+
 	 */
 	public static void main(String[] args){
 		int a = 1;
 		int sum = 1;
 		double b = 1;
 		
-		
-		
 		while (a <= 100) {
+			a = a +1; // also you can use  a += 1;
 			
+			sum += a;
+			System.out.println("sum in while is " + sum); 
+			// you don't have to print inside the loop, it shouldn't print every time you're looping +
+			// If your number greater than 999,  your computer will die :P
 			
-			
-		
-		a = a +1;
-		
-		sum += a;
-		System.out.println("sum is " + sum);
-		b = sum/100;
-		System.out.println("Average is :" + b);
-		//* i don't know why the average is wrong!!! 
-		
-		
-		
-		
-		
+			b = sum / 100;
+			System.out.println("Average in while  is :" + b);
+			// * i don't know why the average is wrong!!! --> check your if statement to know why ;)
 		}
 		
 		int summ = 0;
 		double av = 0;
 		for (int i1 = 1; i1 <= 100; i1++ ) summ +=i1; 
-		System.out.println("Sum is :" + summ);
+		System.out.println("Sum in for  is :" + summ);
 		av = summ/100;
-		System.out.println("Average is :" + av);
+		System.out.println("Average in for is :" + av);
 		
 		int sum2=0;
 		for (int x = 1; x <= 8899; x++) sum2 += x;
-		System.out.println("Sum 111 to 8899 :" + sum2);
-		int average = sum2/8788;
-		System.out.println("Average 111-8899 :" + average );
-		
-				
-	}
+			System.out.println("Sum 111 to 8899 :" + sum2);
+			int average = sum2/8788;
+			System.out.println("Average 111-8899 :" + average );
+		}
 
 }

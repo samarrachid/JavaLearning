@@ -22,9 +22,10 @@ Coza 13 Woza CozaLoza 16 17 Coza 19 Loza CozaWoza 22
 				a = a + 2 ;
 			}
 			
-		
-			}
-			System.out.println(a);
+
+			}			
+		System.out.println(a);
+
 			a = a + 1;
 
 		

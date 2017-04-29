@@ -8,5 +8,10 @@ public class Homework1 {
 	public static void main(String[] args) {
 		System.out.println("Hello :P !"); 
 		System.out.println("Dania");
+		
+		int  a= 4;
+		a +=1;
+		System.out.println(a);
+		
 	}
 }

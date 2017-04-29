@@ -26,6 +26,8 @@ subtracting, multiplying, and dividing among the two values.
 		System.out.println("Adding a and b=" +" " + c);
 		System.out.println("Substracting a from b=" +" "+ d);
 		System.out.println("Multiplying a and b=" +" " + e);
-		System.out.println("Dividing a on b=" +" " + f);
+		System.out.println("Dividing a on b=" +" " + f);	// update the program to check  the result, if result equal to 7a7ee7(Not float) print message, otherwise print different message.
+		
 	}
 }
+//Like what you did here, Excellent Job! Some updates for better
