@@ -9,6 +9,8 @@ package part2;
  */
 public class Looping {
 	 public static void main (String[] args) {
-	 	}
+	 
+	 
+	 }
 	 
 	 }
