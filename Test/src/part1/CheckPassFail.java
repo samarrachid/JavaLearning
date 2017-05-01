@@ -12,7 +12,7 @@ public class CheckPassFail {
 		else  {
 			System.out.println("FAIL");
 		}
-		System .out.println("Done!");
-		
+		System.out.println("Done!");
+
 	}
 }

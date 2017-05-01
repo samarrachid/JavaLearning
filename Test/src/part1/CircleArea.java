@@ -12,9 +12,9 @@ public class CircleArea {
 		circleRadius = circle.nextInt();
 		area = pi * circleRadius * circleRadius;
 		
-		if (area == 7.5 ) { // why you're checking the area to print?
-			System.out.println("Area of circle" + area);
-		}
+		 // why you're checking the area to print?
+			System.out.println("Area of circle is : " + area);
+		
 		
 		
 	}
