@@ -2,9 +2,11 @@ package part2;
 
 public class SumAndAverage {
 	/**
-	 * 4- Write a program called SumAndAverage to produce the sum of 1, 2, 3,
-	 * ..., to 100. Also compute and display the average. The output shall look
-	 * like: The sum is 5050 The average is 50.5 Modify the program to use a
+	 * 4- Write a program called SumAndAverage to produce the sum of 1, 2, 3,* ..., to 100. 
+	 * Also compute and display the average. The output shall look
+	 * like: The sum is 5050 The average is 50.5 
+
+	 Modify the program to use a
 	 * "while - do " loop instead of "for" loop. Modify the program to use a
 	 * "do-while" loop. Notice What is the difference between "for" and
 	 * "while-do" loops? What is the difference between "while-do" and
@@ -27,37 +29,27 @@ public class SumAndAverage {
 		int sumA = 0;
 		double averageA = 0;
 
-		while (a < 100) {
+		while (a < 100) { // if you check <= you're including the 100, and we don't want that
 			a = a + 1; // also you can use a += 1;
-
 			sumA += a;
-		
 			// you don't have to print inside the loop, --> done that
 			// it shouldn't print every time you're looping +
 			// If your number greater than 999, your computer will die :P
-
-			averageA = sumA / 100;
-
+			averageA = (double)sumA / 100; // you need to convert to double to print the .5 ;)
 			// * i don't know why the average is wrong!!! --> check your if
 			// statement to know why ;)
 		}
 		System.out.println("sum in while is " + sumA);
 		System.out.println("Average in while  isss :" + averageA);
 		System.out.println("");
-		
-		
 
 		// sum 1 to 100 using for loop
 		int sumI = 0;
 		double averageI = 0;
 		
-		for (int i = 1; i <= 100; i++) {
+		for (int i = 1; i < 100; i++) {
 			sumI += i;
-
-			averageI = sumI / 100;
-
-		
-			
+			averageI = sumI / 99;
 		}
 		System.out.println("Sum using for loop  is :" + sumI);
 		System.out.println("Average using for loop is :" + averageI);
@@ -67,7 +59,6 @@ public class SumAndAverage {
 		int sumX = 0;
 		for (int x = 1; x < 8899; x++) {
 			sumX += x;
-
 		}
 		int averageX = sumX / 8788;
 		System.out.println("Sum 111 to 8899 :" + sumX);
@@ -86,12 +77,6 @@ public class SumAndAverage {
 			{
 				System.out.println(sumOdd);
 			}
-		
-		
-		
 		}
-		
-
 	}
-
 }
