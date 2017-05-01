@@ -42,7 +42,7 @@ public class SumAndAverage {
 			// statement to know why ;)
 		}
 		System.out.println("sum in while is " + sumA);
-		System.out.println("Average in while  is :" + averageA);
+		System.out.println("Average in while  isss :" + averageA);
 		System.out.println("");
 		
 		
