@@ -23,7 +23,7 @@ Coza 13 Woza CozaLoza 16 17 Coza 19 Loza CozaWoza 22
 			}
 			else if (x%5 ==0)
 			{
-				System.out.println("Loza");
+				System.out.println("LozaA");
 				
 			}
 			
