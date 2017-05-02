@@ -14,6 +14,7 @@ public class AddThreeNums {
 		int b;
 		int c;
 		int d;
+		
 		Scanner add = new Scanner(System.in);
 		a = add.nextInt();
 		b = add.nextInt();
