@@ -35,7 +35,7 @@ public class homework1e {
 	public static void operation1(int a, int b, int c, int result1) {
 		result1 = -a + b * c;
 
-		System.out.println("The result of the operation -5 + 8 * 6 = " + result1);
+		System.out.println("  The result of the operation -5 + 8 * 6 = " + result1);
 
 	}
 	
