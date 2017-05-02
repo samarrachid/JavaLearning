@@ -8,54 +8,63 @@ public class homework1e {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int a = 5;
-		int b = 8;
-		int c = 6;
-		int d = 55;
-		int e = 9;
-		int f = 20;
-		int g = 3;
-		int h = 15;
-		int i = 2;
-		int j = 1;
-		int result1 = 0;
-		int result2 = 0;
-		int result3 = 0;
-		int result4 = 0;
+		int a = 1;
+		int b = 1;
+		int c = 1;
+		int d = 1;
+		int e = 1;
+		int f = 1;
 
-		operation1(a, b, c, result1);
-		operation2(d, e, result2);
-		operation3( f, g, a, b, result3);
-		operation4(a, h, g, i, b, j, result4);
+		int result = 0;
+		
+		operation1(a, b, c, result);
+		operation2(a, b, result);
+		operation3( a, b, c, d, result);
+		operation4(a, b, c, d, e, f, result);
 		
 		
 
 	}
 
-	public static void operation1(int a, int b, int c, int result1) {
-		result1 = -a + b * c;
+	public static void operation1(int a, int b, int c, int result) {
+		a = a - 6;
+		b = b + 7;
+		c = c + 5;
+		result = -a + b * c;
 
-		System.out.println("  The result of the operation -5 + 8 * 6 = " + result1);
+		System.out.println("  The result of the operation -5 + 8 * 6 = " + result);
 
 	}
 	
-	public static void operation2(int d, int e, int result2)
+	public static void operation2(int a, int b, int result)
 	{
-		result2 = (d + e) % e;
-		System.out.println("The result of the operation (55 + 9)%9 = " + result2);
+		a = a + 54;
+		b = b + 8;
+		result = (a+ b) % b;
+		System.out.println("The result of the operation (55 + 9)%9 = " + result);
 		
 	}
 	
-	public static void operation3(int f, int g, int a, int b, int result3)
+	public static void operation3(int a, int b, int c, int d, int result)
 	{
-		result3 = f + (-g) * a / b;
-		System.out.println("The result of the operation 20 + (-3) * 5 / 8 = " + result3);
+		a = a + 19;
+		b = b - 4;
+		c = c + 4;
+		d = d + 7;
+		result = a + (-b) * c / b;
+		System.out.println("The result of the operation 20 + (-3) * 5 / 8 = " + result);
 	}
 	
-	public static void operation4(int a, int h, int g, int i, int b, int j, int result4)
+	public static void operation4(int a, int b, int c, int d, int e, int f, int result)
 	{
-		result4= a + h / g * i - b % 1;
-		System.out.println("The result of the operation 5 + 15 / 3 * 2 - 8 % 1 = " + result4);
+		a = a + 4;
+		b = b + 14;
+		c = c + 2;
+		d = d + 1;
+		e = e + 7;
+		f = 1;
+		result= a + b / c * d - e % f;
+		System.out.println("The result of the operation 5 + 15 / 3 * 2 - 8 % 1 = " + result);
 		
 	}
 
