@@ -22,12 +22,14 @@ Ask them for their age. Then display what their age would be five years from now
 		System.out.println("What's your name?");
 		String name = info.nextLine();
 		System.out.println("");
+		
 		System.out.println("How old are you ?");
 		int age = info.nextInt();
 		System.out.println("");
 
 		System.out.println("What's your height in cm?");
 		int height = info.nextInt();
+		System.out.println("");
 
 		System.out.println("What language do you speak ?");
 		String language = info.nextLine();
