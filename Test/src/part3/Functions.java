@@ -1,27 +1,22 @@
 package part3;
 
 public class Functions {
-	public static void main(String[] args) {
-		Student[] students = new Student[] { 
-				new Student("Morgan", "Freeman"), 
-				new Student("Brad", "Pitt"),
-				new Student("Kevin", "Spacey"), };
-		for (Student s : students) {
-			s.printFullName();
-		}
-	}
-}
 
-class Student {
-	private String firstName;
-	private String lastName;
+	 public void sum(int d, int f) {
+		 System.out.println("in sum d before " + d);
+		 d = 8;
+		 System.out.println("in sum d after " + d);
 
-	public Student(String firstName, String lastName) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-	}
-
-	public void printFullName() {
-		System.out.println(this.firstName + " " + this.lastName);
-	}
+		 int sum = d + f;
+		 System.out.println("Test sum" + sum);
+		 sub(d, f);
+	 }
+	 
+	 public void sub(int d, int t) {
+		 System.out.println("in sub d before " + d);
+		 d = 10;
+		 System.out.println("in sun d after " + d);
+		 int sum = d - t;
+		 System.out.println("Test " + sum);
+	 }
 }
