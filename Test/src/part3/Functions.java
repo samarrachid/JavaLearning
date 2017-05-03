@@ -1,6 +1,10 @@
 package part3;
 
+/**
+ * update the Functions class to contain the four basic operations two  in each method
+ */
 public class Functions {
+
 
 	 public void sum(int d, int f) {
 		 System.out.println("in sum d before " + d);
