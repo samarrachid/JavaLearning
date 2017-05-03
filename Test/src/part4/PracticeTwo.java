@@ -7,7 +7,7 @@ public class PracticeTwo {
 		int number;
 		do {
 		 Scanner input = new Scanner(System.in);
-		 String user = input.nextLine();
+		
 		 while (!input.hasNextInt()) {
 			 System.out.println("this is not");
 			 input.next();
