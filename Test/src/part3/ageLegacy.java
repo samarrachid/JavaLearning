@@ -13,48 +13,36 @@ public class ageLegacy {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-
 		Scanner input = new Scanner(System.in);
 		System.out.println("enter your age ! ");
 		int age = input.nextInt();
-
 		age16(age);
 		age18(age);
 		age20(age);
 		age25(age);
-
 	}
 
 	public static void age16(int age) {
-
 		if (age < 16) {
 			System.out.println("You can't drive !");
 		}
-
 	}
 
 	public static void age18(int age) {
-
 		if (age < 18) {
 			System.out.println("You can't vote !");
 		}
-
 	}
 
 	public static void age20(int age) {
-
 		if (age < 25) {
 			System.out.println("You can't rent a car!");
 		}
-
 	}
 
 	public static void age25(int age) {
-
 		if (age >= 25) {
 			System.out.println("You can do anything that's legal !");
 		}
-
 	}
-
 }
