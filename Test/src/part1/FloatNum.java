@@ -15,23 +15,23 @@ number is zero. Otherwise, print positive or negative.
 		
 		
 		if (a == 0) {
-			System.out.println("Zero!");
+			System.out.println("Value is Zero!");
 			
 		}
 		else if (a >0) {
-			System.out.println("Positive");
+			System.out.println("Value is Positive");
 		}
 		
 		else if (a < 0) {
-			System.out.println("Negative!");
+			System.out.println("Value is Negative!");
 		}
 		
 		System.out.println(Math.abs(a));
 		if (Math.abs(a) < 1) {
-			System.out.println("Small");
+			System.out.println("Absolute value is Small");
 		}
 		else if (Math.abs(a) > 1000000) {
-			System.out.println("Large");
+			System.out.println("Absolute value isLarge");
 			
 		}
 		
