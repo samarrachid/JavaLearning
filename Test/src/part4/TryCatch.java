@@ -12,7 +12,7 @@ public class TryCatch {
 		}
 		catch(InputMismatchException e) {
 			System.out.println(e.getMessage());
-			System.out.println("plz enter a number!!");
+			System.out.println("please enter a number!!");
 			
 		}
 	}
