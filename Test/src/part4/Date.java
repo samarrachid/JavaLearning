@@ -12,9 +12,9 @@ public class Date {
 	
 	//get current year
 	
-	//
+	//get current month
 	
-	//
+	//get current time
 	
 	//
 	
