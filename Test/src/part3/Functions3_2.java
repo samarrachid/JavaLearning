@@ -14,11 +14,11 @@ public class Functions3_2 {
 		double a = 0, b = 0, c = 0;
 		int x = 0;
 		 
-		triangle(a, b, c, input);
-		smallestNum(a, b, c, input);
-		average(a, b, c, input);
+		//triangle(a, b, c, input);
+		//smallestNum(a, b, c, input);
+		//average(a, b, c, input);
 		pentagon(a, b, input);
-		twinPrime(x);
+		//twinPrime(x);
 	}
 	
 	public static void triangle (double a, double b, double c, Scanner input) {
@@ -40,6 +40,8 @@ public class Functions3_2 {
 		 a = input.nextInt();
 		 b = input.nextInt();
 		 c = input.nextInt();
+		 
+		 // what if the user enter same number for all?
 		 if ((a<b) && (a<c)){
 			 System.out.println(a + "is the smallest");
 			 
@@ -51,7 +53,6 @@ public class Functions3_2 {
 		 else if ((c<a)&& (c<b)) {
 			 System.out.println(c + " is the smallest");
 		 }
-		
 	}
 	
 	public static void average(double a, double b, double c, Scanner input) {
@@ -79,7 +80,6 @@ public class Functions3_2 {
 	public static void twinPrime(int x) {
 		x = 3;
 		while (x < 100) {
-			
 			x= x+ 2;
 			
 			

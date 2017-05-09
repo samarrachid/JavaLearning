@@ -2,7 +2,7 @@ package part3;
 
 import java.util.Scanner;
 
-public class Password2 {
+public class StringCheck {
 	/**
 	 * rite a Java method to check whether a string is a valid password.
 	 * Password rules: A password must have at least ten characters. A password
