@@ -4,7 +4,7 @@ import java.util.*;
 
 public class TryCatch {
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
+		 Scanner input = new Scanner(System.in);
 		System.out.print("Enter your phone number : ");
 		
 		try {
