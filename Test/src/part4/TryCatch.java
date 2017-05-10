@@ -13,7 +13,6 @@ public class TryCatch {
 		catch(InputMismatchException e) {
 			System.out.println(e.getMessage());
 			System.out.println("please enter a number!!!!!");
-			
 		}
 	}
 
