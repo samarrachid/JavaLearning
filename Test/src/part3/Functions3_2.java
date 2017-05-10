@@ -15,9 +15,9 @@ public class Functions3_2 {
 		int x = 0;
 		 
 		//triangle(a, b, c, input);
-		//smallestNum(a, b, c, input);
+		smallestNum(a, b, c, input);
 		//average(a, b, c, input);
-		pentagon(a, b, input);
+	//	pentagon(a, b, input);
 		//twinPrime(x);
 	}
 	

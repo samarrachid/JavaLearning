@@ -11,7 +11,7 @@ public class MagicSum {
 		a = input.nextInt();
 		b = input.nextInt();
 		int c = a + b;
-		System.out.println(a + " + " + b + " = 123" + c);
+		System.out.println(a + " + " + b + " = " + c);
 		
 	}
 }
