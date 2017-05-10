@@ -14,7 +14,7 @@ public class Password {
 	static Scanner input = new Scanner(System.in);
 
 	public static void main(String args[]) {
-		String password = "0";
+		String password = "0"; //Not wrong, but the sting shouldn't take 0 as default, leave it password ="" which means it's empty
 		length10(input, password);
 		digitOrLetter(input, password);
 
@@ -41,7 +41,7 @@ public class Password {
 			while (Character.isDigit(password.charAt(0))) {
 				digit++; 
 				if (digit < 2) {
-					System.out.println("your password must contain at least 2 digits!");
+					System.out.println("your password must contain at least 2 digits!"); 
 					password = input.nextLine();
 				}
 
