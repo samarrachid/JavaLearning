@@ -1,2 +1,0 @@
-
-// create a person class.
