@@ -30,7 +30,7 @@ public class Person {
 		getGenderWeight(gender, weight, input);
 //		System.out.println(getFullName(firstName, lastName, input));
 		input.close();
-		
+		// make answer comments right under the Qes
 	}
 	
 	public static String getFullName(String firstName, String lastName, Scanner input) {
@@ -101,29 +101,29 @@ public class Person {
 					System.out.println("you're pretty no matter what!, but i guess you should lose some weight..");
 				}
 			
-			}
+			} }
 		
 			else if (gender.equals("male")) {
 			System.out.println("Do you think you're courage enough?");
 			String courage = input.nextLine();
 			if (courage.equals("yes")) {
-				System.out.println("this is something! prove it :P /n"
-						+ "Let's play a quick game to see if you're right. /n"
-						+ "The game is called (Would You Rather), i will ask you three questions and will evaluate your courage according to your answers. /n"
-						+ "Type 1 or 2 according to the questions order. /n"
+				System.out.println("this is something! prove it :P \n"
+						+ "Let's play a quick game to see if you're right. \n"
+						+ "The game is called (Would You Rather), i will ask you three questions and will evaluate your courage according to your answers. \n"
+						+ "Type 1 or 2 according to the questions order. \n"
 						+ "Let's get started");
-				System.out.println("Question 1 ..Would you rather /n"
-						+ "1. Always to say everything on your mind? /n"
+				System.out.println("Question 1 ..Would you rather \n"
+						+ "1. Always to say everything on your mind? \n"
 						+ "2. Never be able to speak again?");
 				int answer1 = input.nextInt();
 				
-				System.out.println("Question 2 .. Would you rather /n"
-						+ "1. Confess a girl you love? /n"
+				System.out.println("Question 2 .. Would you rather \n"
+						+ "1. Confess a girl you love? \n"
 						+ "2. Stay silent and wait for her to confess you?");
 				int answer2 = input.nextInt();
 				
-				System.out.println("Question 3 .. Would you rather /n"
-						+ "1. Save a girl from someone trying to kill her? /n"
+				System.out.println("Question 3 .. Would you rather \n"
+						+ "1. Save a girl from someone trying to kill her? \n"
 						+ "2. Run and save your own life?");
 				int answer3 = input.nextInt();
 				
@@ -164,7 +164,7 @@ public class Person {
 					
 				}
 			}
-		}
+		
 		}
 		
 		
