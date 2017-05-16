@@ -50,7 +50,8 @@ public class Person {
 		country = input.nextLine();
 		
 		
-		if ( country.equals("syria") || country.equals("Syria")) {
+		//if ( country.equals("syria") || country.equals("Syria")) {// Mmmm you can use
+			if ( country.equalsIgnoreCase(("syria"))) {
 			language = "Arabic" ;
 			System.out.println("You must speak " + language + "!");
 			
@@ -88,7 +89,8 @@ public class Person {
 		System.out.print("What's you gender? ");
 		gender = input.nextLine();
 		gender = input.nextLine();
-		if (gender.equals("female")) {
+		if (gender.equals("female")) { // get another condition for girl :P+ always use equalsIgnoreCase when value is coming from user, you never know :P
+			
 			System.out.println("Do you think you're pretty? ");
 			String pretty = input.nextLine();
 			if(pretty.equals("yes")) {
@@ -166,7 +168,6 @@ public class Person {
 			}
 		
 		}
-		
 		
 	return gender;
 	}
