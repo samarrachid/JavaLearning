@@ -20,4 +20,8 @@ public class KeyboardScanner {
 	public static void sum(int number, float f_number, float sum, String name2) {
 		System.out.println("Hi! " + name2 + " the sum of " + number + " and " + f_number +" is " + sum);
 	}
+	
+	
+
+	
 }

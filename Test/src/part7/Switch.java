@@ -1,4 +1,4 @@
-package part6;
+package part7;
 
 public class Switch {
 
