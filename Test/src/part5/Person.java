@@ -5,8 +5,6 @@ import java.util.Scanner;
 // create a person class.
 public class Person {
 	
-
-	
 	public static void main(String[] args) {
 		 String country = null;
 		 String eyeColor;
