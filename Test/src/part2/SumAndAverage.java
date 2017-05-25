@@ -32,7 +32,6 @@ public class SumAndAverage {
 	}
 
 	public static void sum1(int x, int sum, double average) {
-
 		while (x <= 100) {
 			sum += x;
 			x++;
