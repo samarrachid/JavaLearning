@@ -40,21 +40,9 @@ public class Arrays2 {
 		System.out.println("Element at index 7: " + anArray[7]);
 		System.out.println("Element at index 8: " + anArray[8]);
 		System.out.println("Element at index 9: " + anArray[9]);
-		System.out.println(firstLast6(anArray));
 	}
-	
-	// Given an array of ints, return true if 6 appears as either the first or
-	// last element in the array.
-	// The array will be length 1 or more.
-	public static boolean  firstLast6(int[] nums) {
-		return (nums[0] == 6 || nums[nums.length - 1] == 6);
+}
 
-	}
-	}
-
-
-
-	// Write an Array with 10
-	// print the whole Array
-	// print last 3 numbers
-
+// Write an Array with 10
+// print the whole Array
+// print last 3 numbers
