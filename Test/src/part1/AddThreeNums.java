@@ -22,6 +22,8 @@ public class AddThreeNums {
 		d = (a + b + c);
 
 		System.out.println(d);
+		System.out.println();
+		System.out.println("**end program**");
 
 	}
 }

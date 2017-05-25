@@ -1,0 +1,60 @@
+package part6;
+
+/*
+Find Largest and Smallest Number in an Array Example
+This Java Example shows how to find largest and smallest number in an
+array.
+*/
+public class Arrays2 {
+
+	public static void main(String[] args) {
+
+		// declares an array of integers
+		int[] anArray;
+
+		// allocates memory for 10 integers
+		anArray = new int[10];
+
+		// initialize first element
+		anArray[0] = 100;
+		// initialize second element
+		anArray[1] = 200;
+		// and so forth
+		anArray[2] = 300;
+		anArray[3] = 400;
+		anArray[4] = 500;
+		anArray[5] = 600;
+		anArray[6] = 700;
+		anArray[7] = 800;
+		anArray[8] = 900;
+		anArray[9] = 1000;
+
+		// array of 10 numbers
+		System.out.println("Element at index 0: " + anArray[0]);
+		System.out.println("Element at index 1: " + anArray[1]);
+		System.out.println("Element at index 2: " + anArray[2]);
+		System.out.println("Element at index 3: " + anArray[3]);
+		System.out.println("Element at index 4: " + anArray[4]);
+		System.out.println("Element at index 5: " + anArray[5]);
+		System.out.println("Element at index 6: " + anArray[6]);
+		System.out.println("Element at index 7: " + anArray[7]);
+		System.out.println("Element at index 8: " + anArray[8]);
+		System.out.println("Element at index 9: " + anArray[9]);
+		System.out.println(firstLast6(anArray));
+	}
+	
+	// Given an array of ints, return true if 6 appears as either the first or
+	// last element in the array.
+	// The array will be length 1 or more.
+	public static boolean  firstLast6(int[] nums) {
+		return (nums[0] == 6 || nums[nums.length - 1] == 6);
+
+	}
+	}
+
+
+
+	// Write an Array with 10
+	// print the whole Array
+	// print last 3 numbers
+
