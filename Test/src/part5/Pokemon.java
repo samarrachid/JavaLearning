@@ -14,6 +14,7 @@ public class Pokemon {
 	public String name = "Pokemon";
 	
 	public int getHealth() {
+		
 		return health;
 	}
 	
