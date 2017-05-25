@@ -12,6 +12,7 @@ public class Arrays2 {
 		// declares an array of integers
 		int[] anArray;
 
+		
 		// allocates memory for 10 integers
 		anArray = new int[10];
 
