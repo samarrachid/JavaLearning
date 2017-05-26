@@ -1,13 +1,12 @@
-package part4;
+package part3;
 
 import java.util.Scanner;
 
 public class PracticeTwo {
 	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
 		int number;
 		do {
-			Scanner input = new Scanner(System.in);
-
 			while (!input.hasNextInt()) {
 				System.out.println("this is not");
 				input.next();
