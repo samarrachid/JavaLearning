@@ -37,7 +37,7 @@ public class numberArray {
  		System.out.print(Arrays.toString(numberCopy));
  		System.out.println("\n");
  		// start at a specific place and end at a specific one, start at index 3 end at index 6
- 		int[] copyRange = Arrays.copyOfRange(numberArray, 3, 6);
+ 		int[] copyRange = Arrays.copyOfRange(numberArray, 4, 6);
  		for (int rows : copyRange) {
  			System.out.print(rows);
  		}
