@@ -31,6 +31,14 @@ public class TwoDemonsionalArray {
 			 		System.out.println();
 		 			
 		 		}
+		 		System.out.println();
+		 		for (String[] row : bigArray) {
+		 			for(String column : row) {
+		 				
+		 				System.out.print("| " + column + " ");
+		 			}
+		 			System.out.println("|");
+		 		}
 	}
 
 }
