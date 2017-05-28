@@ -1,5 +1,6 @@
 package part6;
 
+
 public class Arrays {
 
 	public static void main(String[] args) {
@@ -19,5 +20,10 @@ public class Arrays {
 			sum += currentVal;
 			System.out.println(sum);
 		}
+	}
+
+	public static int[] copyOf(int[] numberArray, int i) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
