@@ -5,8 +5,6 @@ import java.util.Arrays;
 public class SecondSmallestNumber {
 	public static void main(String[] args) {
 		
-		
-	
 		int[] numbers = {4, 2, 5, 6, 15, 3, 7};
 		System.out.println("this is an array of integers: ");
 		
