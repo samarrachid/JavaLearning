@@ -4,7 +4,8 @@ package part6;
 public class Arrays {
 
 	public static void main(String[] args) {
-		float[] values = { 3.0f, 2.0f, 5.0f};
+		float[] values 
+		= { 3.0f, 2.0f, 5.0f};
 //		= new float[3];
 //		values[0] = 10.1f;
 //		values[1] = 11.1f;

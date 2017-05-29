@@ -21,7 +21,7 @@ public class numberArray {
  		System.out.print("| " + j + " ");
  		}
  		// if i don't write the below statement the the row won't be printed, why?!
- 		System.out.println("|");
+ 		System.out.println("k");
  		// the ":" is to relate row to numberArray?
  		for (int row : numberArray) {
  			System.out.print(row);
