@@ -47,6 +47,16 @@ public class numberArray {
  			Arrays.fill(row, '*');
  			System.out.println(row);
  		}
+ 		// creating a random array
+ 		int[] randomArray = new int[10];
+ 		for (int i = 0; i < 10; i ++) {
+ 			// without *100 all the values will be 0s 
+ 			randomArray[i] = (int) (Math.random() * 100);
+ 			
+ 		}
+ 		Arrays.sort(randomArray);
+ 		System.out.print(Arrays.toString(randomArray));
+ 		
  		
 		
 	}
