@@ -80,16 +80,17 @@ public class Person {
 		}
 		return age;
 	}
-
+// TODO in case if the user enters an empty line
 	public static String getGenderWeight(String gender, int weight, Scanner input) {
 		System.out.print("What's you gender? ");
 		gender = input.nextLine();
 		gender = input.nextLine();
-		if (gender.equalsIgnoreCase("female")) { // get another condition for
-													// girl :P+ always use
-													// equalsIgnoreCase when
-													// value is coming from
-													// user, you never know :P
+		if (gender.equalsIgnoreCase("female")) {
+			// get another condition for
+			// girl :P+ always use
+			// equalsIgnoreCase when
+			// value is coming from
+			// user, you never know :P
 
 			System.out.println("Do you think you're pretty? ");
 			String pretty = input.nextLine();
@@ -150,64 +151,53 @@ public class Person {
 				} else if (count == 1) {
 					System.out.println("Game over!, better luck next time");
 				}
-			}
-			else if(courage.equalsIgnoreCase("no")) {
-				System.out.println("Mmm not courage but maybe smart! \n" +
-			"let's play a quick game to see how smart you are! \n" +
-						"i'll ask you three math questions, you should pick one of three answers by typing a, b, or c \n" +
-			"let the fun begin!" \n +
-			"Question 1 :");
+			} else if (courage.equalsIgnoreCase("no")) {
+				System.out.println(
+						"Mmm not courage but maybe smart! \n" + "let's play a quick game to see how smart you are! \n"
+								+ "i'll ask you three math questions, you should pick one of three answers by typing a, b, or c \n"
+								+ "let the fun begin!" + "\n" + "Question 1 :");
+
 				System.out.println("1 + 13 * 2 - 0 * 50 - 20 + 3 * 2 - 1 + 0 * 5 + 1 =");
-				System.out.println("a. 0 \n" +
-				"b. 5 \n" +
-						"c. 1");
+				System.out.println("a. 0 \n" + "b. 13 \n" + "c. 1");
 				String smartAnswer1 = input.nextLine();
 				int countSmartAnswer = 0;
 				if (smartAnswer1.equalsIgnoreCase("c")) {
-				
-					countSmartAnswer ++;
+					countSmartAnswer++;
 				}
-				System.out.println("ok, now Question  2 \n" +
-				"if dog * dog = 16 \n" +
-						"dog * cat * cat = 36 \n" +
-				"dog * cat * bird = 72 \n" +
-						"then : dog + cat + bird = ?");
-				System.out.println("a. 14 \n" +"b. 18 \n" + "c. 14");
+				System.out.println("ok, now Question  2 \n" + "if dog * dog = 16 \n" + "dog * cat * cat = 36 \n"
+						+ "dog * cat * bird = 72 \n" + "then : dog + cat + bird = ?");
+				System.out.println("a. 14 \n" + "b. 18 \n" + "c. 14");
 				String smartAnswer2 = input.nextLine();
 				if (smartAnswer2.equalsIgnoreCase("b")) {
-					countSmartAnswer ++;
+					countSmartAnswer++;
 				}
-				System.out.println("Last but not least ... \n" +
-				"now this is gonna be a bit different, i won't give you choices you should guess the answer!");
-				System.out.println("what is the number that if it's multiplied in 4 then \n" +
-				"added to 4 then divided by 4 then substracted from 4 equals 4 ?");
+				System.out.println("Last but not least ... \n"
+						+ "now this is gonna be a bit different, i won't give you choices you should guess the answer!");
+				System.out.println("what is the number that if it's multiplied in 4 then \n"
+						+ "added to 4 then divided by 4 then substracted from 4 equals 4 ?");
 				int smartAnswer3 = input.nextInt();
 				if (smartAnswer3 == 7) {
-					countSmartAnswer ++;
+					countSmartAnswer++;
 				}
-				
+
 				switch (countSmartAnswer) {
-				case 3 :
+				case 3:
 					System.out.println("congrats! all of your answers were correct");
 					break;
-				case 2 :
+				case 2:
 					System.out.println("not bad!");
 					break;
-				case 1 :
+				case 1:
 					System.out.println("not that stupid :D");
 					break;
-				case 0 :
+				case 0:
 					System.out.println("guess you're not a fan of math ha!");
 					break;
 				}
-				
-				
-				
-				
+
 			}
-		} 
-		
-		
+		}
+
 		else {
 			System.out.println("That's not a right gender!");
 			// TODO Re run the age method
